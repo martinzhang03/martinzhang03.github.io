@@ -1,0 +1,68 @@
+---
+---
+
+@comment{
+  HOW TO ADD A PAPER
+  1. Copy the template below, paste it as a new entry (anywhere in this file), and remove the leading "%" from each line.
+  2. Fill in the fields. Delete any link field you do not have.
+  3. Commit. The site rebuilds automatically in a few minutes.
+
+  The Publications page groups papers by year, newest first.
+  selected = true also shows the paper on the home page.
+
+  Link buttons. Each field you fill in becomes a button under the paper:
+    arxiv   = arXiv ID only, e.g. 2604.25899
+    pdf     = full URL to a PDF
+    html    = paper / publisher page URL
+    code    = code repository URL
+    website = project page URL
+    slides  = slides URL
+    poster  = poster URL
+    video   = video URL
+
+  Template:
+  % @inproceedings{lastnameYEARkeyword,
+  %   title     = [Paper Title],
+  %   author    = [First Last and First Last and Jinyuan Zhang],
+  %   booktitle = [Conference or Workshop Name],
+  %   year      = [2027],
+  %   abbr      = [OSDI],
+  %   arxiv     = [2601.00000],
+  %   pdf       = [https://...],
+  %   code      = [https://github.com/...],
+  %   selected  = [true],
+  % }
+  NOTE: in a real entry, use curly braces where the template shows square brackets.
+}
+
+@unpublished{zhang2027branchflow,
+  title      = {BranchFlow: Efficient State Restoration for Branching Video Generation},
+  author     = {Jinyuan Zhang* and Shan Yu* and Xiukun Huang and Wei Liu and Kai Chen and Junyi Shu and Harry Xu},
+  note       = {Manuscript in preparation, to be submitted to OSDI 2027},
+  year       = {2026},
+  abbr       = {In prep.},
+  annotation = {* Equal contribution},
+  selected   = {true}
+}
+
+@misc{yu2026pythia,
+  title         = {Pythia: Exploiting Workflow Predictability for Efficient Agent-Native LLM Serving},
+  author        = {Shan Yu and Junyi Shu and Yuanjiang Ni and Kun Qian and Xue Li and Yang Wang and Jinyuan Zhang and Ziyi Xu and Shuo Yang and Lingjun Zhu and Ennan Zhai and Qingda Lu and Jiarong Xing and Youyou Lu and Xin Jin and Xuanzhe Liu and Harry Xu},
+  howpublished  = {arXiv preprint arXiv:2604.25899},
+  year          = {2026},
+  abbr          = {arXiv},
+  arxiv         = {2604.25899},
+  selected      = {true}
+}
+
+@inproceedings{zhou2026minecraft,
+  title     = {Can Current Agents Close the Discovery-to-Application Gap? A Case Study in Minecraft},
+  author    = {{Zhou Ziheng} and Huacong Tang and Jinyuan Zhang and Haowei Lin and Bangcheng Yang and Qian Long and Fang Sun and Yizhou Sun and Yitao Liang and Ying Nian Wu and Demetri Terzopoulos and Xiaofeng Gao},
+  booktitle = {ICLR 2026 Workshop on Recursive Self-Improvement (RSI)},
+  year      = {2026},
+  abbr      = {ICLR-W},
+  award     = {Spotlight paper at the ICLR 2026 Workshop on Recursive Self-Improvement.},
+  award_name = {Spotlight},
+  arxiv     = {2604.24697},
+  selected  = {true}
+}
