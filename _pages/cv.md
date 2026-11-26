@@ -16,10 +16,10 @@ Machine Learning Systems; Efficient Serving of Large Language Models and Video G
 ## Education
 
 **University of California, Los Angeles (UCLA)** — Los Angeles, CA<br>
-_M.S. in Computer Science_ · GPA 3.95/4.00 · Sep. 2025 – Present
+_M.S. in Computer Science_ · Sep. 2025 – Present
 
 **University of California, Los Angeles (UCLA)** — Los Angeles, CA<br>
-_B.S. in Computer Science_ · GPA 3.75/4.00 · Sep. 2021 – Mar. 2025
+_B.S. in Computer Science_ · Sep. 2021 – Mar. 2025
 
 ## Research Experience
 
